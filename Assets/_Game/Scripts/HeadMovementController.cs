@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class MovementController : MonoBehaviour
+public class HeadMovementController : MonoBehaviour
 {
     public Rigidbody targetBody;
     public Joystick joystick;

@@ -10,6 +10,7 @@ public class RobotArmController : MonoBehaviour
     public Rigidbody headBody;
     public IntReference stickCount;
     private List<HingeJoint> _currentSticks;
+
     private void Awake()
     {
         _currentSticks = new List<HingeJoint>();
@@ -35,7 +36,7 @@ public class RobotArmController : MonoBehaviour
         {
             RemoveSticks(amount);
         }
-
+        
         SetConfigurations();
     }
 
