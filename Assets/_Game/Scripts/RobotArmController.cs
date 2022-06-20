@@ -36,7 +36,7 @@ public class RobotArmController : MonoBehaviour
         {
             RemoveSticks(amount);
         }
-        
+
         SetConfigurations();
     }
 
